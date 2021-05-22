@@ -3,9 +3,9 @@
 
 This is my Undergraduate Graduation Design，it can access pedestrian hazards by using object detection. The main idea of algorithm is actually sample,it is pixel distance which judges the pedestrian hazards. You can change the ''MIN_DISTANCE'' which in "pyimagesearch/dangerous_distancing_config" to map to the actual distance. Here is the demo:
 
-![图10](F:\毕业设计\图片\图10.png)
+![图10](https://github.com/xuguilin0802/dangerous-distance-detector/blob/master/image/%E5%9B%BE10.png)
 
-![图11](F:\毕业设计\图片\图11.png)
+![图11](https://github.com/xuguilin0802/dangerous-distance-detector/blob/master/image/%E5%9B%BE11.png)
 
 The Box of person will turn to red when the pixel distance between person and car less than the
 
@@ -35,5 +35,5 @@ python dangerous_distance_detector.py --input video_detrac_1.mp4 --output out_vi
 
 ### Example
 
-![demo](F:\毕业设计\图片\demo.gif)
+![demo](https://github.com/xuguilin0802/dangerous-distance-detector/blob/master/image/demo.gif)
 
